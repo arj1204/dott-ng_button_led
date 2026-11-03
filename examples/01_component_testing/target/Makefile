@@ -90,7 +90,8 @@ SRC = $(DOTTDIR)/target/testhelpers.c \
       system_stm32f0xx.c \
       testexamples.c \
       quicksort.c \
-      main.c
+      main.c \
+      board_io.c
 
 # Assembly source files to be built
 ASMSRC = Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.s

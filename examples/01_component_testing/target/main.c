@@ -21,11 +21,13 @@
 
 #include "testhelpers.h"
 #include "quicksort.h"
+#include "board_io.h"
 
 volatile uint32_t global_data = 0xdeadbeef;
 
 int main(void)
 {
+	board_io_init();
 	DOTT_test_hook();
 
 	while(true) {

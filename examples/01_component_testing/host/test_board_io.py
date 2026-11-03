@@ -5,7 +5,7 @@ from dottmi.dott import DottConf, dott
 from dottmi.target_mem import TypedPtr, TargetMemScoped
 from dottmi.utils import DottConvert, log, DOTT_LABEL
 import pytest   
-
+import time
 # + the same dott import lines as in test_example_functions.py
 
 GPIOA_ODR  = 0x48000014
@@ -15,6 +15,15 @@ EXTI_SWIER = 0x40010410
 
 def reg(addr):
     return int(dott().target.eval(f'*(volatile unsigned int *){addr:#x}'))
+
+def reg_write(addr, value):
+    dott().target.eval(f'*(volatile unsigned int *){addr:#x} = {value:#x}')
+
+def reg_set_bits(addr, mask):
+    dott().target.eval(f'*(volatile unsigned int *){addr:#x} |= {mask:#x}')
+
+def reg_clear_bits(addr, mask):
+    dott().target.eval(f'*(volatile unsigned int *){addr:#x} &= ~{mask:#x}')
 
 class TestBoardIO:
 
@@ -40,6 +49,15 @@ class TestBoardIO:
         dott().target.eval('board_io_init()')
         assert (reg(GPIOC_IDR) >> 13) & 1 == 1    # pulled up = not pressed
         assert int(dott().target.eval('button_read()')) == 0
+
+    @pytest.mark.hw
+    def test_led_via_register(self, target_load, target_reset):
+        dott().target.eval('board_io_init()')
+        reg_write(0x48000018, 1 << 5)          # BSRR: set PA5
+        assert (reg(0x48000010) >> 5) & 1 == 1 # IDR: pin is high
+        time.sleep(2)  # wait a bit to see the LED on   
+        reg_write(0x48000028, 1 << 5)          # BRR: reset PA5
+        assert (reg(0x48000010) >> 5) & 1 == 0
 
 
     @pytest.mark.hw
