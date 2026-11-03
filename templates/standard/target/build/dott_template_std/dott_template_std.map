@@ -1,0 +1,279 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+                              build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o (__libc_init_array)
+c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                              C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o (memset)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000020000 xr
+RAM              0x0000000020000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+LOAD build/dott_template_std/dott/target/testhelpers.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc6lKp2A.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cca8iDb6.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccSOOXJB.debug.temp.o
+LOAD build/dott_template_std/system_stm32f0xx.o
+LOAD build/dott_template_std/main.o
+START GROUP
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+                0x0000000020004000                _estack = 0x20004000
+                0x0000000000000000                _Min_Heap_Size = 0x0
+                0x0000000000000000                _Min_Stack_Size = 0x0
+
+.isr_vector     0x0000000008000000       0xc0
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000       0xc0 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x0000000008000000                g_pfnVectors
+                0x00000000080000c0                . = ALIGN (0x4)
+
+.text           0x00000000080000c0      0x188
+                0x00000000080000c0                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000000080000c0       0x14 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .text          0x00000000080000d4       0xb0 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+                0x0000000008000120                SystemInit
+                0x0000000008000180                _init
+ .text          0x0000000008000184        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .text          0x0000000008000184        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ *(.text*)
+ .text.Reset_Handler
+                0x0000000008000184       0x50 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x0000000008000184                Reset_Handler
+ .text.Default_Handler
+                0x00000000080001d4        0x2 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x00000000080001d4                TIM1_CC_IRQHandler
+                0x00000000080001d4                TSC_IRQHandler
+                0x00000000080001d4                HardFault_Handler
+                0x00000000080001d4                ADC1_COMP_IRQHandler
+                0x00000000080001d4                SysTick_Handler
+                0x00000000080001d4                PendSV_Handler
+                0x00000000080001d4                NMI_Handler
+                0x00000000080001d4                I2C1_IRQHandler
+                0x00000000080001d4                RCC_CRS_IRQHandler
+                0x00000000080001d4                SPI1_IRQHandler
+                0x00000000080001d4                TIM6_DAC_IRQHandler
+                0x00000000080001d4                USART3_4_IRQHandler
+                0x00000000080001d4                EXTI2_3_IRQHandler
+                0x00000000080001d4                I2C2_IRQHandler
+                0x00000000080001d4                TIM17_IRQHandler
+                0x00000000080001d4                CEC_CAN_IRQHandler
+                0x00000000080001d4                RTC_IRQHandler
+                0x00000000080001d4                PVD_VDDIO2_IRQHandler
+                0x00000000080001d4                DMA1_Channel4_5_6_7_IRQHandler
+                0x00000000080001d4                TIM16_IRQHandler
+                0x00000000080001d4                TIM3_IRQHandler
+                0x00000000080001d4                EXTI4_15_IRQHandler
+                0x00000000080001d4                DMA1_Channel1_IRQHandler
+                0x00000000080001d4                Default_Handler
+                0x00000000080001d4                TIM14_IRQHandler
+                0x00000000080001d4                TIM7_IRQHandler
+                0x00000000080001d4                TIM15_IRQHandler
+                0x00000000080001d4                EXTI0_1_IRQHandler
+                0x00000000080001d4                USB_IRQHandler
+                0x00000000080001d4                SPI2_IRQHandler
+                0x00000000080001d4                SVC_Handler
+                0x00000000080001d4                WWDG_IRQHandler
+                0x00000000080001d4                TIM2_IRQHandler
+                0x00000000080001d4                DMA1_Channel2_3_IRQHandler
+                0x00000000080001d4                USART2_IRQHandler
+                0x00000000080001d4                FLASH_IRQHandler
+                0x00000000080001d4                USART1_IRQHandler
+                0x00000000080001d4                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x00000000080001d6        0x2 
+ .text.startup  0x00000000080001d8       0x18 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+                0x00000000080001d8                main
+ .text.__libc_init_array
+                0x00000000080001f0       0x48 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+                0x00000000080001f0                __libc_init_array
+ .text.memset   0x0000000008000238       0x10 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x0000000008000238                memset
+ *(.glue_7)
+ .glue_7        0x0000000008000248        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008000248        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0000000008000248                . = ALIGN (0x4)
+                0x0000000008000248                _etext = .
+
+.vfp11_veneer   0x0000000008000248        0x0
+ .vfp11_veneer  0x0000000008000248        0x0 linker stubs
+
+.v4_bx          0x0000000008000248        0x0
+ .v4_bx         0x0000000008000248        0x0 linker stubs
+
+.iplt           0x0000000008000248        0x0
+ .iplt          0x0000000008000248        0x0 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+
+.rel.dyn        0x0000000008000248        0x0
+ .rel.iplt      0x0000000008000248        0x0 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+
+.rodata         0x0000000008000248        0x0
+                0x0000000008000248                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+                0x0000000008000248                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0000000008000248        0x0
+                0x0000000008000248                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000000008000248                __exidx_end = .
+
+.preinit_array  0x0000000008000248        0x0
+                0x0000000008000248                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x0000000008000248                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000008000248        0x0
+                0x0000000008000248                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x0000000008000248                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000008000248        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x0000000008000248                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0x0 load address 0x0000000008000248
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ .data          0x0000000020000000        0x0 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .data          0x0000000020000000        0x0 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+ .data          0x0000000020000000        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .data          0x0000000020000000        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ *(.data*)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _edata = .
+
+.igot.plt       0x0000000020000000        0x0 load address 0x0000000008000248
+ .igot.plt      0x0000000020000000        0x0 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x0000000020000000                . = ALIGN (0x4)
+
+.bss            0x0000000020000000        0x4 load address 0x0000000008000248
+                0x0000000020000000                _sbss = .
+                0x0000000020000000                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x0000000020000000        0x0 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .bss           0x0000000020000000        0x4 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+ .bss           0x0000000020000004        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .bss           0x0000000020000004        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ *(.bss*)
+ *(COMMON)
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _ebss = .
+                0x0000000020000004                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x0000000020000004        0x0 load address 0x0000000008000248
+                0x0000000020000004                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x0000000020000004                . = (. + _Min_Heap_Size)
+                0x0000000020000004                . = (. + _Min_Stack_Size)
+                0x0000000020000004                . = ALIGN (0x4)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x21 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .ARM.attributes
+                0x0000000000000021       0x2a C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+ .ARM.attributes
+                0x000000000000004b       0x2c c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x0000000000000077       0x2c c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+OUTPUT(build/dott_template_std/dott_template_std.elf elf32-littlearm)
+LOAD linker stubs
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a
+
+.debug_line     0x0000000000000000      0x958
+ .debug_line    0x0000000000000000      0x118 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_line    0x0000000000000118      0x1f7 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+ .debug_line    0x000000000000030f      0x1ac C:\Users\tom\AppData\Local\Temp\cc6lKp2A.debug.temp.o
+ .debug_line    0x00000000000004bb      0x27e C:\Users\tom\AppData\Local\Temp\cca8iDb6.debug.temp.o
+ .debug_line    0x0000000000000739      0x21f C:\Users\tom\AppData\Local\Temp\ccSOOXJB.debug.temp.o
+
+.debug_info     0x0000000000000000      0x4d5
+ .debug_info    0x0000000000000000       0x22 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_info    0x0000000000000022       0xf9 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+ .debug_info    0x000000000000011b       0xe8 C:\Users\tom\AppData\Local\Temp\cc6lKp2A.debug.temp.o
+                0x000000000000011b                testhelpers.c.dcf9738b
+ .debug_info    0x0000000000000203      0x229 C:\Users\tom\AppData\Local\Temp\cca8iDb6.debug.temp.o
+                0x0000000000000203                system_stm32f0xx.c.ce5fa6e6
+ .debug_info    0x000000000000042c       0xa9 C:\Users\tom\AppData\Local\Temp\ccSOOXJB.debug.temp.o
+                0x000000000000042c                main.c.b1259de3
+
+.debug_abbrev   0x0000000000000000      0x2b3
+ .debug_abbrev  0x0000000000000000       0x12 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_abbrev  0x0000000000000012       0x86 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000098       0xa2 C:\Users\tom\AppData\Local\Temp\cc6lKp2A.debug.temp.o
+ .debug_abbrev  0x000000000000013a       0xf7 C:\Users\tom\AppData\Local\Temp\cca8iDb6.debug.temp.o
+ .debug_abbrev  0x0000000000000231       0x82 C:\Users\tom\AppData\Local\Temp\ccSOOXJB.debug.temp.o
+
+.debug_aranges  0x0000000000000000       0x50
+ .debug_aranges
+                0x0000000000000000       0x28 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_aranges
+                0x0000000000000028       0x28 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+
+.debug_str      0x0000000000000000      0x5aa
+ .debug_str     0x0000000000000000      0x12b build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_str     0x000000000000012b       0xda C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+                                        0x14a (size before relaxing)
+ .debug_str     0x0000000000000205      0x1d9 C:\Users\tom\AppData\Local\Temp\cc6lKp2A.debug.temp.o
+                                        0x284 (size before relaxing)
+ .debug_str     0x00000000000003de      0x145 C:\Users\tom\AppData\Local\Temp\cca8iDb6.debug.temp.o
+                                        0x30c (size before relaxing)
+ .debug_str     0x0000000000000523       0x87 C:\Users\tom\AppData\Local\Temp\ccSOOXJB.debug.temp.o
+                                        0x255 (size before relaxing)
+
+.debug_ranges   0x0000000000000000       0x20
+ .debug_ranges  0x0000000000000000       0x20 build/dott_template_std/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+
+.debug_rnglists
+                0x0000000000000000       0x1a
+ .debug_rnglists
+                0x0000000000000000       0x1a C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+
+.comment        0x0000000000000000       0x39
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc6lKp2A.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cca8iDb6.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccSOOXJB.debug.temp.o
+ .comment       0x0000000000000000       0x39 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+                                         0x3a (size before relaxing)
+ .comment       0x0000000000000039       0x3a c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+
+.debug_frame    0x0000000000000000       0x88
+ .debug_frame   0x0000000000000000       0x88 C:\Users\tom\AppData\Local\Temp\ccGSrZ4C.ltrans0.ltrans.o

@@ -1,0 +1,23 @@
+build/dott_example_01/testexamples.o: \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/testexamples.c \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/string.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/string.h \
+ C:/Users/Employee/Documents/DOTT-NG/target/testhelpers.h

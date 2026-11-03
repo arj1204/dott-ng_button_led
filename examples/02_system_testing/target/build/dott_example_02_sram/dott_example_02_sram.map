@@ -1,0 +1,676 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+                              build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o (__libc_init_array)
+c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o (__aeabi_uidiv)
+c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+                              C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o (__aeabi_idiv)
+c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                              C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o (memset)
+c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+                              C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o (memcpy)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000020000 xr
+SRAM             0x0000000020000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+LOAD build/dott_example_02_sram/dott/target/testhelpers.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccHB20L2.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccgZhvNK.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cclPZSbt.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc6C7xvb.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccTvzuPT.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc4czgmB.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cclx7aXi.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc4bJRq0.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccr7yqiI.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccgVxHbq.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc1aMAS7.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc6GPYQO.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccjFnARv.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccQPYuLc.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cchLTSZT.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccuX2F6A.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc9Bd8ji.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc4scPGY.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc3BvEWE.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccsAGbel.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccTTRvT1.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccw9TzrI.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccr2Hk1o.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccg8FMu9.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccbRqAPT.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccm6PMfE.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc71bJZo.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccw4u7O9.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cc1TPexU.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\ccEfpIoE.debug.temp.o
+LOAD C:\Users\tom\AppData\Local\Temp\cclR1Plo.debug.temp.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_iwdg.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
+LOAD build/dott_example_02_sram/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+LOAD build/dott_example_02_sram/Src/main.o
+LOAD build/dott_example_02_sram/Src/dma.o
+LOAD build/dott_example_02_sram/Src/gpio.o
+LOAD build/dott_example_02_sram/Src/i2c.o
+LOAD build/dott_example_02_sram/Src/usart.o
+LOAD build/dott_example_02_sram/Src/tim.o
+LOAD build/dott_example_02_sram/Src/stm32f0xx_it.o
+LOAD build/dott_example_02_sram/Src/stm32f0xx_hal_msp.o
+LOAD build/dott_example_02_sram/Src/system_stm32f0xx.o
+LOAD build/dott_example_02_sram/Src/example_cntr.o
+LOAD build/dott_example_02_sram/Src/example_cmd.o
+START GROUP
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+                0x0000000020004000                _estack = 0x20004000
+                0x0000000000000000                _Min_Heap_Size = 0x0
+                0x0000000000000000                _Min_Stack_Size = 0x0
+
+.isr_vector     0x0000000020000000       0xc0
+                0x0000000020000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000020000000       0xc0 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x0000000020000000                g_pfnVectors
+                0x00000000200000c0                . = ALIGN (0x4)
+
+.text           0x00000000200000c0     0x18d8
+                0x00000000200000c0                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000000200000c0       0x14 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .text          0x00000000200000d4      0xe64 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+                0x0000000020000d40                _init
+                0x0000000020000d42                NMI_Handler
+                0x0000000020000d44                HardFault_Handler
+                0x0000000020000d46                SVC_Handler
+                0x0000000020000d48                PendSV_Handler
+                0x0000000020000d4a                SysTick_Handler
+                0x0000000020000d6c                RCC_CRS_IRQHandler
+                0x0000000020000d6e                DMA1_Channel2_3_IRQHandler
+                0x0000000020000d8c                TIM7_IRQHandler
+                0x0000000020000e5c                I2C1_IRQHandler
+                0x0000000020000ed8                SystemInit
+ .text          0x0000000020000f38        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .text          0x0000000020000f38        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .text          0x0000000020000f38        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .text          0x0000000020000f38      0x114 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x0000000020000f38                __aeabi_uidiv
+                0x0000000020000f38                __udivsi3
+                0x0000000020001044                __aeabi_uidivmod
+ .text          0x000000002000104c      0x1d4 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+                0x000000002000104c                __divsi3
+                0x000000002000104c                __aeabi_idiv
+                0x0000000020001218                __aeabi_idivmod
+ .text          0x0000000020001220        0x4 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x0000000020001220                __aeabi_idiv0
+                0x0000000020001220                __aeabi_ldiv0
+ *(.text*)
+ .text.Reset_Handler
+                0x0000000020001224       0x50 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x0000000020001224                Reset_Handler
+ .text.Default_Handler
+                0x0000000020001274        0x2 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x0000000020001274                TIM1_CC_IRQHandler
+                0x0000000020001274                TSC_IRQHandler
+                0x0000000020001274                ADC1_COMP_IRQHandler
+                0x0000000020001274                SPI1_IRQHandler
+                0x0000000020001274                TIM6_DAC_IRQHandler
+                0x0000000020001274                USART3_4_IRQHandler
+                0x0000000020001274                EXTI2_3_IRQHandler
+                0x0000000020001274                I2C2_IRQHandler
+                0x0000000020001274                TIM17_IRQHandler
+                0x0000000020001274                CEC_CAN_IRQHandler
+                0x0000000020001274                RTC_IRQHandler
+                0x0000000020001274                PVD_VDDIO2_IRQHandler
+                0x0000000020001274                DMA1_Channel4_5_6_7_IRQHandler
+                0x0000000020001274                TIM16_IRQHandler
+                0x0000000020001274                TIM3_IRQHandler
+                0x0000000020001274                EXTI4_15_IRQHandler
+                0x0000000020001274                DMA1_Channel1_IRQHandler
+                0x0000000020001274                Default_Handler
+                0x0000000020001274                TIM14_IRQHandler
+                0x0000000020001274                TIM15_IRQHandler
+                0x0000000020001274                EXTI0_1_IRQHandler
+                0x0000000020001274                USB_IRQHandler
+                0x0000000020001274                SPI2_IRQHandler
+                0x0000000020001274                WWDG_IRQHandler
+                0x0000000020001274                TIM2_IRQHandler
+                0x0000000020001274                USART2_IRQHandler
+                0x0000000020001274                FLASH_IRQHandler
+                0x0000000020001274                USART1_IRQHandler
+                0x0000000020001274                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x0000000020001276        0x2 
+ .text.startup  0x0000000020001278      0x6b4 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+                0x0000000020001278                main
+ .text.__libc_init_array
+                0x000000002000192c       0x48 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+                0x000000002000192c                __libc_init_array
+ .text.memset   0x0000000020001974       0x10 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x0000000020001974                memset
+ .text.memcpy   0x0000000020001984       0x12 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+                0x0000000020001984                memcpy
+ *(.glue_7)
+ .glue_7        0x0000000020001996        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000020001996        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0000000020001998                . = ALIGN (0x4)
+ *fill*         0x0000000020001996        0x2 
+                0x0000000020001998                _etext = .
+
+.vfp11_veneer   0x0000000020001998        0x0
+ .vfp11_veneer  0x0000000020001998        0x0 linker stubs
+
+.v4_bx          0x0000000020001998        0x0
+ .v4_bx         0x0000000020001998        0x0 linker stubs
+
+.iplt           0x0000000020001998        0x0
+ .iplt          0x0000000020001998        0x0 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+
+.rodata         0x0000000020001998       0x54
+                0x0000000020001998                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0000000020001998       0x30 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x00000000200019c8       0x22 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+                0x00000000200019ec                . = ALIGN (0x4)
+ *fill*         0x00000000200019ea        0x2 
+
+.rel.dyn        0x00000000200019ec        0x0
+ .rel.iplt      0x00000000200019ec        0x0 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00000000200019ec        0x0
+                0x00000000200019ec                __exidx_start = .
+ *(.ARM.exidx*)
+                0x00000000200019ec                __exidx_end = .
+
+.preinit_array  0x00000000200019ec        0x0
+                0x00000000200019ec                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x00000000200019ec                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00000000200019ec        0x0
+                0x00000000200019ec                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x00000000200019ec                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000000200019ec        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x00000000200019ec                _sidata = LOADADDR (.data)
+
+.data           0x00000000200019ec        0x8
+                0x00000000200019ec                . = ALIGN (0x4)
+                0x00000000200019ec                _sdata = .
+ *(.data)
+ .data          0x00000000200019ec        0x0 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .data          0x00000000200019ec        0x8 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+ .data          0x00000000200019f4        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .data          0x00000000200019f4        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .data          0x00000000200019f4        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .data          0x00000000200019f4        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x00000000200019f4        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .data          0x00000000200019f4        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ *(.data*)
+                0x00000000200019f4                . = ALIGN (0x4)
+                0x00000000200019f4                _edata = .
+
+.igot.plt       0x00000000200019f4        0x0
+ .igot.plt      0x00000000200019f4        0x0 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x00000000200019f4                . = ALIGN (0x4)
+
+.bss            0x00000000200019f4      0x2a4
+                0x00000000200019f4                _sbss = .
+                0x00000000200019f4                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x00000000200019f4        0x0 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .bss           0x00000000200019f4      0x2a4 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+ .bss           0x0000000020001c98        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .bss           0x0000000020001c98        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .bss           0x0000000020001c98        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x0000000020001c98        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x0000000020001c98        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .bss           0x0000000020001c98        0x0 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ *(.bss*)
+ *(COMMON)
+                0x0000000020001c98                . = ALIGN (0x4)
+                0x0000000020001c98                _ebss = .
+                0x0000000020001c98                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x0000000020001c98        0x0
+                0x0000000020001c98                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x0000000020001c98                . = (. + _Min_Heap_Size)
+                0x0000000020001c98                . = (. + _Min_Stack_Size)
+                0x0000000020001c98                . = ALIGN (0x4)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x21 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .ARM.attributes
+                0x0000000000000021       0x2a C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+ .ARM.attributes
+                0x000000000000004b       0x2c c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x0000000000000077       0x2c c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000000000000a3       0x2c c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000000000cf       0x1e c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000000000ed       0x1e c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000000000010b       0x1e c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+OUTPUT(build/dott_example_02_sram/dott_example_02_sram.elf elf32-littlearm)
+LOAD linker stubs
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v6-m/nofp\libgcc.a
+
+.debug_line     0x0000000000000000     0x3107
+ .debug_line    0x0000000000000000      0x120 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_line    0x0000000000000120     0x22cb C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+ .debug_line    0x00000000000023eb       0x4c C:\Users\tom\AppData\Local\Temp\ccHB20L2.debug.temp.o
+ .debug_line    0x0000000000002437       0x7b C:\Users\tom\AppData\Local\Temp\ccgZhvNK.debug.temp.o
+ .debug_line    0x00000000000024b2       0x71 C:\Users\tom\AppData\Local\Temp\cclPZSbt.debug.temp.o
+ .debug_line    0x0000000000002523       0x31 C:\Users\tom\AppData\Local\Temp\cc6C7xvb.debug.temp.o
+ .debug_line    0x0000000000002554       0x31 C:\Users\tom\AppData\Local\Temp\ccTvzuPT.debug.temp.o
+ .debug_line    0x0000000000002585       0x31 C:\Users\tom\AppData\Local\Temp\cc4czgmB.debug.temp.o
+ .debug_line    0x00000000000025b6       0x7b C:\Users\tom\AppData\Local\Temp\cclx7aXi.debug.temp.o
+ .debug_line    0x0000000000002631       0x7b C:\Users\tom\AppData\Local\Temp\cc4bJRq0.debug.temp.o
+ .debug_line    0x00000000000026ac       0x85 C:\Users\tom\AppData\Local\Temp\ccr7yqiI.debug.temp.o
+ .debug_line    0x0000000000002731       0x80 C:\Users\tom\AppData\Local\Temp\ccgVxHbq.debug.temp.o
+ .debug_line    0x00000000000027b1       0x80 C:\Users\tom\AppData\Local\Temp\cc1aMAS7.debug.temp.o
+ .debug_line    0x0000000000002831       0x7b C:\Users\tom\AppData\Local\Temp\cc6GPYQO.debug.temp.o
+ .debug_line    0x00000000000028ac       0x71 C:\Users\tom\AppData\Local\Temp\ccjFnARv.debug.temp.o
+ .debug_line    0x000000000000291d       0x71 C:\Users\tom\AppData\Local\Temp\ccQPYuLc.debug.temp.o
+ .debug_line    0x000000000000298e       0x76 C:\Users\tom\AppData\Local\Temp\cchLTSZT.debug.temp.o
+ .debug_line    0x0000000000002a04       0x6c C:\Users\tom\AppData\Local\Temp\ccuX2F6A.debug.temp.o
+ .debug_line    0x0000000000002a70       0x6c C:\Users\tom\AppData\Local\Temp\cc9Bd8ji.debug.temp.o
+ .debug_line    0x0000000000002adc       0x6c C:\Users\tom\AppData\Local\Temp\cc4scPGY.debug.temp.o
+ .debug_line    0x0000000000002b48       0x76 C:\Users\tom\AppData\Local\Temp\cc3BvEWE.debug.temp.o
+ .debug_line    0x0000000000002bbe       0x71 C:\Users\tom\AppData\Local\Temp\ccsAGbel.debug.temp.o
+ .debug_line    0x0000000000002c2f       0xa7 C:\Users\tom\AppData\Local\Temp\ccTTRvT1.debug.temp.o
+ .debug_line    0x0000000000002cd6       0x5e C:\Users\tom\AppData\Local\Temp\ccw9TzrI.debug.temp.o
+ .debug_line    0x0000000000002d34       0x5e C:\Users\tom\AppData\Local\Temp\ccr2Hk1o.debug.temp.o
+ .debug_line    0x0000000000002d92       0x85 C:\Users\tom\AppData\Local\Temp\ccg8FMu9.debug.temp.o
+ .debug_line    0x0000000000002e17       0x76 C:\Users\tom\AppData\Local\Temp\ccbRqAPT.debug.temp.o
+ .debug_line    0x0000000000002e8d       0x7b C:\Users\tom\AppData\Local\Temp\ccm6PMfE.debug.temp.o
+ .debug_line    0x0000000000002f08       0x77 C:\Users\tom\AppData\Local\Temp\cc71bJZo.debug.temp.o
+ .debug_line    0x0000000000002f7f       0x5e C:\Users\tom\AppData\Local\Temp\ccw4u7O9.debug.temp.o
+ .debug_line    0x0000000000002fdd       0x5a C:\Users\tom\AppData\Local\Temp\cc1TPexU.debug.temp.o
+ .debug_line    0x0000000000003037       0x4c C:\Users\tom\AppData\Local\Temp\ccEfpIoE.debug.temp.o
+ .debug_line    0x0000000000003083       0x84 C:\Users\tom\AppData\Local\Temp\cclR1Plo.debug.temp.o
+
+.debug_info     0x0000000000000000     0xf5ab
+ .debug_info    0x0000000000000000       0x22 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_info    0x0000000000000022     0x1fe9 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+ .debug_info    0x000000000000200b       0xe1 C:\Users\tom\AppData\Local\Temp\ccHB20L2.debug.temp.o
+                0x000000000000200b                testhelpers.c.a092f20e
+ .debug_info    0x00000000000020ec     0x15e6 C:\Users\tom\AppData\Local\Temp\ccgZhvNK.debug.temp.o
+                0x00000000000020ec                stm32f0xx_hal_i2c.c.1e57e1c5
+ .debug_info    0x00000000000036d2      0x7b7 C:\Users\tom\AppData\Local\Temp\cclPZSbt.debug.temp.o
+                0x00000000000036d2                stm32f0xx_hal_i2c_ex.c.7e3d22e5
+ .debug_info    0x0000000000003e89       0x6c C:\Users\tom\AppData\Local\Temp\cc6C7xvb.debug.temp.o
+                0x0000000000003e89                stm32f0xx_hal_iwdg.c.6224bd0c
+ .debug_info    0x0000000000003ef5       0x6c C:\Users\tom\AppData\Local\Temp\ccTvzuPT.debug.temp.o
+                0x0000000000003ef5                stm32f0xx_hal_spi.c.15a8a441
+ .debug_info    0x0000000000003f61       0x6c C:\Users\tom\AppData\Local\Temp\cc4czgmB.debug.temp.o
+                0x0000000000003f61                stm32f0xx_hal_spi_ex.c.ad2c2890
+ .debug_info    0x0000000000003fcd     0x1bbc C:\Users\tom\AppData\Local\Temp\cclx7aXi.debug.temp.o
+                0x0000000000003fcd                stm32f0xx_hal_tim.c.d9107567
+ .debug_info    0x0000000000005b89      0xeb9 C:\Users\tom\AppData\Local\Temp\cc4bJRq0.debug.temp.o
+                0x0000000000005b89                stm32f0xx_hal_tim_ex.c.b11604cf
+ .debug_info    0x0000000000006a42     0x1026 C:\Users\tom\AppData\Local\Temp\ccr7yqiI.debug.temp.o
+                0x0000000000006a42                stm32f0xx_hal_uart.c.623230f6
+ .debug_info    0x0000000000007a68      0x873 C:\Users\tom\AppData\Local\Temp\ccgVxHbq.debug.temp.o
+                0x0000000000007a68                stm32f0xx_hal_uart_ex.c.8509883f
+ .debug_info    0x00000000000082db      0x73a C:\Users\tom\AppData\Local\Temp\cc1aMAS7.debug.temp.o
+                0x00000000000082db                stm32f0xx_hal_rcc.c.6b4870dc
+ .debug_info    0x0000000000008a15      0x55f C:\Users\tom\AppData\Local\Temp\cc6GPYQO.debug.temp.o
+                0x0000000000008a15                stm32f0xx_hal_rcc_ex.c.94774ebe
+ .debug_info    0x0000000000008f74      0x504 C:\Users\tom\AppData\Local\Temp\ccjFnARv.debug.temp.o
+                0x0000000000008f74                stm32f0xx_hal.c.8b75d81e
+ .debug_info    0x0000000000009478      0x535 C:\Users\tom\AppData\Local\Temp\ccQPYuLc.debug.temp.o
+                0x0000000000009478                stm32f0xx_hal_gpio.c.2979ea92
+ .debug_info    0x00000000000099ad      0x615 C:\Users\tom\AppData\Local\Temp\cchLTSZT.debug.temp.o
+                0x00000000000099ad                stm32f0xx_hal_dma.c.390d185d
+ .debug_info    0x0000000000009fc2      0x598 C:\Users\tom\AppData\Local\Temp\ccuX2F6A.debug.temp.o
+                0x0000000000009fc2                stm32f0xx_hal_cortex.c.a89d2964
+ .debug_info    0x000000000000a55a      0x347 C:\Users\tom\AppData\Local\Temp\cc9Bd8ji.debug.temp.o
+                0x000000000000a55a                stm32f0xx_hal_pwr.c.0cfc0dad
+ .debug_info    0x000000000000a8a1      0x1e3 C:\Users\tom\AppData\Local\Temp\cc4scPGY.debug.temp.o
+                0x000000000000a8a1                stm32f0xx_hal_pwr_ex.c.a7b52d71
+ .debug_info    0x000000000000aa84      0x42b C:\Users\tom\AppData\Local\Temp\cc3BvEWE.debug.temp.o
+                0x000000000000aa84                stm32f0xx_hal_flash.c.941a4570
+ .debug_info    0x000000000000aeaf      0x647 C:\Users\tom\AppData\Local\Temp\ccsAGbel.debug.temp.o
+                0x000000000000aeaf                stm32f0xx_hal_flash_ex.c.9b9b53e5
+ .debug_info    0x000000000000b4f6      0x9cb C:\Users\tom\AppData\Local\Temp\ccTTRvT1.debug.temp.o
+                0x000000000000b4f6                main.c.a5d6246c
+ .debug_info    0x000000000000bec1      0x282 C:\Users\tom\AppData\Local\Temp\ccw9TzrI.debug.temp.o
+                0x000000000000bec1                dma.c.0cb9bb8a
+ .debug_info    0x000000000000c143      0x313 C:\Users\tom\AppData\Local\Temp\ccr2Hk1o.debug.temp.o
+                0x000000000000c143                gpio.c.0d43a9b4
+ .debug_info    0x000000000000c456      0x9e1 C:\Users\tom\AppData\Local\Temp\ccg8FMu9.debug.temp.o
+                0x000000000000c456                i2c.c.d28f7ad9
+ .debug_info    0x000000000000ce37      0x89b C:\Users\tom\AppData\Local\Temp\ccbRqAPT.debug.temp.o
+                0x000000000000ce37                usart.c.38619b89
+ .debug_info    0x000000000000d6d2      0x84c C:\Users\tom\AppData\Local\Temp\ccm6PMfE.debug.temp.o
+                0x000000000000d6d2                tim.c.6d7ae364
+ .debug_info    0x000000000000df1e      0x91f C:\Users\tom\AppData\Local\Temp\cc71bJZo.debug.temp.o
+                0x000000000000df1e                stm32f0xx_it.c.553ad095
+ .debug_info    0x000000000000e83d      0x290 C:\Users\tom\AppData\Local\Temp\ccw4u7O9.debug.temp.o
+                0x000000000000e83d                stm32f0xx_hal_msp.c.aedf870e
+ .debug_info    0x000000000000eacd      0x1ff C:\Users\tom\AppData\Local\Temp\cc1TPexU.debug.temp.o
+                0x000000000000eacd                system_stm32f0xx.c.db28b69d
+ .debug_info    0x000000000000eccc       0xc3 C:\Users\tom\AppData\Local\Temp\ccEfpIoE.debug.temp.o
+                0x000000000000eccc                example_cntr.c.a370f9c4
+ .debug_info    0x000000000000ed8f      0x81c C:\Users\tom\AppData\Local\Temp\cclR1Plo.debug.temp.o
+                0x000000000000ed8f                example_cmd.c.9f05b150
+
+.debug_abbrev   0x0000000000000000     0x2ee1
+ .debug_abbrev  0x0000000000000000       0x12 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_abbrev  0x0000000000000012      0x27e C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000290       0xa6 C:\Users\tom\AppData\Local\Temp\ccHB20L2.debug.temp.o
+ .debug_abbrev  0x0000000000000336      0x1e2 C:\Users\tom\AppData\Local\Temp\ccgZhvNK.debug.temp.o
+ .debug_abbrev  0x0000000000000518      0x1ad C:\Users\tom\AppData\Local\Temp\cclPZSbt.debug.temp.o
+ .debug_abbrev  0x00000000000006c5       0x26 C:\Users\tom\AppData\Local\Temp\cc6C7xvb.debug.temp.o
+ .debug_abbrev  0x00000000000006eb       0x26 C:\Users\tom\AppData\Local\Temp\ccTvzuPT.debug.temp.o
+ .debug_abbrev  0x0000000000000711       0x26 C:\Users\tom\AppData\Local\Temp\cc4czgmB.debug.temp.o
+ .debug_abbrev  0x0000000000000737      0x1f5 C:\Users\tom\AppData\Local\Temp\cclx7aXi.debug.temp.o
+ .debug_abbrev  0x000000000000092c      0x1ef C:\Users\tom\AppData\Local\Temp\cc4bJRq0.debug.temp.o
+ .debug_abbrev  0x0000000000000b1b      0x1c2 C:\Users\tom\AppData\Local\Temp\ccr7yqiI.debug.temp.o
+ .debug_abbrev  0x0000000000000cdd      0x1d0 C:\Users\tom\AppData\Local\Temp\ccgVxHbq.debug.temp.o
+ .debug_abbrev  0x0000000000000ead      0x1e0 C:\Users\tom\AppData\Local\Temp\cc1aMAS7.debug.temp.o
+ .debug_abbrev  0x000000000000108d      0x176 C:\Users\tom\AppData\Local\Temp\cc6GPYQO.debug.temp.o
+ .debug_abbrev  0x0000000000001203      0x1a9 C:\Users\tom\AppData\Local\Temp\ccjFnARv.debug.temp.o
+ .debug_abbrev  0x00000000000013ac      0x1aa C:\Users\tom\AppData\Local\Temp\ccQPYuLc.debug.temp.o
+ .debug_abbrev  0x0000000000001556      0x1cd C:\Users\tom\AppData\Local\Temp\cchLTSZT.debug.temp.o
+ .debug_abbrev  0x0000000000001723      0x1e8 C:\Users\tom\AppData\Local\Temp\ccuX2F6A.debug.temp.o
+ .debug_abbrev  0x000000000000190b      0x149 C:\Users\tom\AppData\Local\Temp\cc9Bd8ji.debug.temp.o
+ .debug_abbrev  0x0000000000001a54      0x136 C:\Users\tom\AppData\Local\Temp\cc4scPGY.debug.temp.o
+ .debug_abbrev  0x0000000000001b8a      0x1e2 C:\Users\tom\AppData\Local\Temp\cc3BvEWE.debug.temp.o
+ .debug_abbrev  0x0000000000001d6c      0x1c9 C:\Users\tom\AppData\Local\Temp\ccsAGbel.debug.temp.o
+ .debug_abbrev  0x0000000000001f35      0x211 C:\Users\tom\AppData\Local\Temp\ccTTRvT1.debug.temp.o
+ .debug_abbrev  0x0000000000002146       0xe8 C:\Users\tom\AppData\Local\Temp\ccw9TzrI.debug.temp.o
+ .debug_abbrev  0x000000000000222e      0x13a C:\Users\tom\AppData\Local\Temp\ccr2Hk1o.debug.temp.o
+ .debug_abbrev  0x0000000000002368      0x208 C:\Users\tom\AppData\Local\Temp\ccg8FMu9.debug.temp.o
+ .debug_abbrev  0x0000000000002570      0x1c6 C:\Users\tom\AppData\Local\Temp\ccbRqAPT.debug.temp.o
+ .debug_abbrev  0x0000000000002736      0x1ba C:\Users\tom\AppData\Local\Temp\ccm6PMfE.debug.temp.o
+ .debug_abbrev  0x00000000000028f0      0x1a2 C:\Users\tom\AppData\Local\Temp\cc71bJZo.debug.temp.o
+ .debug_abbrev  0x0000000000002a92       0xf1 C:\Users\tom\AppData\Local\Temp\ccw4u7O9.debug.temp.o
+ .debug_abbrev  0x0000000000002b83      0x100 C:\Users\tom\AppData\Local\Temp\cc1TPexU.debug.temp.o
+ .debug_abbrev  0x0000000000002c83       0x7f C:\Users\tom\AppData\Local\Temp\ccEfpIoE.debug.temp.o
+ .debug_abbrev  0x0000000000002d02      0x1df C:\Users\tom\AppData\Local\Temp\cclR1Plo.debug.temp.o
+
+.debug_aranges  0x0000000000000000       0x50
+ .debug_aranges
+                0x0000000000000000       0x28 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_aranges
+                0x0000000000000028       0x28 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+
+.debug_str      0x0000000000000000     0x58c6
+ .debug_str     0x0000000000000000      0x13b build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_str     0x000000000000013b       0xf9 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+                                        0x178 (size before relaxing)
+ .debug_str     0x0000000000000234      0x1d2 C:\Users\tom\AppData\Local\Temp\ccHB20L2.debug.temp.o
+                                        0x285 (size before relaxing)
+ .debug_str     0x0000000000000406      0xcd0 C:\Users\tom\AppData\Local\Temp\ccgZhvNK.debug.temp.o
+                                        0xf3d (size before relaxing)
+ .debug_str     0x00000000000010d6      0x1d9 C:\Users\tom\AppData\Local\Temp\cclPZSbt.debug.temp.o
+                                        0x8a3 (size before relaxing)
+ .debug_str     0x00000000000012af       0xa7 C:\Users\tom\AppData\Local\Temp\cc6C7xvb.debug.temp.o
+                                        0x258 (size before relaxing)
+ .debug_str     0x0000000000001356       0xa6 C:\Users\tom\AppData\Local\Temp\ccTvzuPT.debug.temp.o
+                                        0x257 (size before relaxing)
+ .debug_str     0x00000000000013fc       0xa9 C:\Users\tom\AppData\Local\Temp\cc4czgmB.debug.temp.o
+                                        0x25a (size before relaxing)
+ .debug_str     0x00000000000014a5      0xfe6 C:\Users\tom\AppData\Local\Temp\cclx7aXi.debug.temp.o
+                                       0x146e (size before relaxing)
+ .debug_str     0x000000000000248b      0x562 C:\Users\tom\AppData\Local\Temp\cc4bJRq0.debug.temp.o
+                                        0xdb7 (size before relaxing)
+ .debug_str     0x00000000000029ed      0x919 C:\Users\tom\AppData\Local\Temp\ccr7yqiI.debug.temp.o
+                                        0xe42 (size before relaxing)
+ .debug_str     0x0000000000003306      0x1e5 C:\Users\tom\AppData\Local\Temp\ccgVxHbq.debug.temp.o
+                                        0x938 (size before relaxing)
+ .debug_str     0x00000000000034eb      0x3ef C:\Users\tom\AppData\Local\Temp\cc1aMAS7.debug.temp.o
+                                        0x6ea (size before relaxing)
+ .debug_str     0x00000000000038da      0x3bc C:\Users\tom\AppData\Local\Temp\cc6GPYQO.debug.temp.o
+                                        0x6e1 (size before relaxing)
+ .debug_str     0x0000000000003c96      0x443 C:\Users\tom\AppData\Local\Temp\ccjFnARv.debug.temp.o
+                                        0x6f9 (size before relaxing)
+ .debug_str     0x00000000000040d9      0x1a1 C:\Users\tom\AppData\Local\Temp\ccQPYuLc.debug.temp.o
+                                        0x4da (size before relaxing)
+ .debug_str     0x000000000000427a      0x27b C:\Users\tom\AppData\Local\Temp\cchLTSZT.debug.temp.o
+                                        0x6e9 (size before relaxing)
+ .debug_str     0x00000000000044f5      0x248 C:\Users\tom\AppData\Local\Temp\ccuX2F6A.debug.temp.o
+                                        0x717 (size before relaxing)
+ .debug_str     0x000000000000473d      0x201 C:\Users\tom\AppData\Local\Temp\cc9Bd8ji.debug.temp.o
+                                        0x480 (size before relaxing)
+ .debug_str     0x000000000000493e      0x1ae C:\Users\tom\AppData\Local\Temp\cc4scPGY.debug.temp.o
+                                        0x3c7 (size before relaxing)
+ .debug_str     0x0000000000004aec      0x304 C:\Users\tom\AppData\Local\Temp\cc3BvEWE.debug.temp.o
+                                        0x5dc (size before relaxing)
+ .debug_str     0x0000000000004df0      0x31e C:\Users\tom\AppData\Local\Temp\ccsAGbel.debug.temp.o
+                                        0x6f6 (size before relaxing)
+ .debug_str     0x000000000000510e      0x104 C:\Users\tom\AppData\Local\Temp\ccTTRvT1.debug.temp.o
+                                        0xb5f (size before relaxing)
+ .debug_str     0x0000000000005212       0x7b C:\Users\tom\AppData\Local\Temp\ccw9TzrI.debug.temp.o
+                                        0x4bb (size before relaxing)
+ .debug_str     0x000000000000528d       0x8c C:\Users\tom\AppData\Local\Temp\ccr2Hk1o.debug.temp.o
+                                        0x373 (size before relaxing)
+ .debug_str     0x0000000000005319       0xa5 C:\Users\tom\AppData\Local\Temp\ccg8FMu9.debug.temp.o
+                                        0xae5 (size before relaxing)
+ .debug_str     0x00000000000053be       0x8f C:\Users\tom\AppData\Local\Temp\ccbRqAPT.debug.temp.o
+                                        0x83f (size before relaxing)
+ .debug_str     0x000000000000544d       0x8a C:\Users\tom\AppData\Local\Temp\ccm6PMfE.debug.temp.o
+                                        0x98c (size before relaxing)
+ .debug_str     0x00000000000054d7      0x129 C:\Users\tom\AppData\Local\Temp\cc71bJZo.debug.temp.o
+                                        0xa34 (size before relaxing)
+ .debug_str     0x0000000000005600       0x89 C:\Users\tom\AppData\Local\Temp\ccw4u7O9.debug.temp.o
+                                        0x4c9 (size before relaxing)
+ .debug_str     0x0000000000005689       0xa9 C:\Users\tom\AppData\Local\Temp\cc1TPexU.debug.temp.o
+                                        0x319 (size before relaxing)
+ .debug_str     0x0000000000005732       0xb0 C:\Users\tom\AppData\Local\Temp\ccEfpIoE.debug.temp.o
+                                        0x298 (size before relaxing)
+ .debug_str     0x00000000000057e2       0xe4 C:\Users\tom\AppData\Local\Temp\cclR1Plo.debug.temp.o
+                                        0x847 (size before relaxing)
+
+.debug_ranges   0x0000000000000000       0x20
+ .debug_ranges  0x0000000000000000       0x20 build/dott_example_02_sram/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+
+.debug_loclists
+                0x0000000000000000     0x13e3
+ .debug_loclists
+                0x0000000000000000     0x13e3 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+
+.debug_rnglists
+                0x0000000000000000      0x43a
+ .debug_rnglists
+                0x0000000000000000      0x43a C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+
+.comment        0x0000000000000000       0x39
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccHB20L2.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccgZhvNK.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cclPZSbt.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc6C7xvb.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccTvzuPT.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc4czgmB.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cclx7aXi.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc4bJRq0.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccr7yqiI.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccgVxHbq.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc1aMAS7.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc6GPYQO.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccjFnARv.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccQPYuLc.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cchLTSZT.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccuX2F6A.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc9Bd8ji.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc4scPGY.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc3BvEWE.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccsAGbel.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccTTRvT1.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccw9TzrI.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccr2Hk1o.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccg8FMu9.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccbRqAPT.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccm6PMfE.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc71bJZo.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccw4u7O9.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cc1TPexU.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\ccEfpIoE.debug.temp.o
+ .comment       0x0000000000000000       0x3a C:\Users\tom\AppData\Local\Temp\cclR1Plo.debug.temp.o
+ .comment       0x0000000000000000       0x39 c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+                                         0x3a (size before relaxing)
+ .comment       0x0000000000000039       0x3a c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .comment       0x0000000000000039       0x3a c:/home/tom/jenkins/workspace/dott_mstr_win/internal/buildsys/bin/windows/ext/arm-none-eabi-gcc-11.3.1/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+
+.debug_frame    0x0000000000000000      0x3a8
+ .debug_frame   0x0000000000000000      0x3a8 C:\Users\tom\AppData\Local\Temp\cc3pk6oK.ltrans0.ltrans.o
+
+.debug_line_str
+                0x0000000000000000     0x1931
+ .debug_line_str
+                0x0000000000000000      0x24c C:\Users\tom\AppData\Local\Temp\ccHB20L2.debug.temp.o
+                                        0x25a (size before relaxing)
+ .debug_line_str
+                0x000000000000024c      0x349 C:\Users\tom\AppData\Local\Temp\ccgZhvNK.debug.temp.o
+                                        0x4fb (size before relaxing)
+ .debug_line_str
+                0x0000000000000595       0xa9 C:\Users\tom\AppData\Local\Temp\cclPZSbt.debug.temp.o
+                                        0x4e5 (size before relaxing)
+ .debug_line_str
+                0x000000000000063e       0xa7 C:\Users\tom\AppData\Local\Temp\cc6C7xvb.debug.temp.o
+                                        0x118 (size before relaxing)
+ .debug_line_str
+                0x00000000000006e5       0xa6 C:\Users\tom\AppData\Local\Temp\ccTvzuPT.debug.temp.o
+                                        0x117 (size before relaxing)
+ .debug_line_str
+                0x000000000000078b       0xa9 C:\Users\tom\AppData\Local\Temp\cc4czgmB.debug.temp.o
+                                        0x11a (size before relaxing)
+ .debug_line_str
+                0x0000000000000834       0xd1 C:\Users\tom\AppData\Local\Temp\cclx7aXi.debug.temp.o
+                                        0x502 (size before relaxing)
+ .debug_line_str
+                0x0000000000000905       0xa9 C:\Users\tom\AppData\Local\Temp\cc4bJRq0.debug.temp.o
+                                        0x508 (size before relaxing)
+ .debug_line_str
+                0x00000000000009ae       0xe8 C:\Users\tom\AppData\Local\Temp\ccr7yqiI.debug.temp.o
+                                        0x52a (size before relaxing)
+ .debug_line_str
+                0x0000000000000a96       0xaa C:\Users\tom\AppData\Local\Temp\ccgVxHbq.debug.temp.o
+                                        0x51c (size before relaxing)
+ .debug_line_str
+                0x0000000000000b40       0xce C:\Users\tom\AppData\Local\Temp\cc1aMAS7.debug.temp.o
+                                        0x50f (size before relaxing)
+ .debug_line_str
+                0x0000000000000c0e       0xc0 C:\Users\tom\AppData\Local\Temp\cc6GPYQO.debug.temp.o
+                                        0x504 (size before relaxing)
+ .debug_line_str
+                0x0000000000000cce      0x14b C:\Users\tom\AppData\Local\Temp\ccjFnARv.debug.temp.o
+                                        0x4e2 (size before relaxing)
+ .debug_line_str
+                0x0000000000000e19       0xa7 C:\Users\tom\AppData\Local\Temp\ccQPYuLc.debug.temp.o
+                                        0x4da (size before relaxing)
+ .debug_line_str
+                0x0000000000000ec0       0xa6 C:\Users\tom\AppData\Local\Temp\cchLTSZT.debug.temp.o
+                                        0x4e7 (size before relaxing)
+ .debug_line_str
+                0x0000000000000f66       0xb5 C:\Users\tom\AppData\Local\Temp\ccuX2F6A.debug.temp.o
+                                        0x4b5 (size before relaxing)
+ .debug_line_str
+                0x000000000000101b       0xa6 C:\Users\tom\AppData\Local\Temp\cc9Bd8ji.debug.temp.o
+                                        0x4af (size before relaxing)
+ .debug_line_str
+                0x00000000000010c1       0xc0 C:\Users\tom\AppData\Local\Temp\cc4scPGY.debug.temp.o
+                                        0x4cc (size before relaxing)
+ .debug_line_str
+                0x0000000000001181       0xbe C:\Users\tom\AppData\Local\Temp\cc3BvEWE.debug.temp.o
+                                        0x4ed (size before relaxing)
+ .debug_line_str
+                0x000000000000123f       0xc4 C:\Users\tom\AppData\Local\Temp\ccsAGbel.debug.temp.o
+                                        0x4f0 (size before relaxing)
+ .debug_line_str
+                0x0000000000001303      0x111 C:\Users\tom\AppData\Local\Temp\ccTTRvT1.debug.temp.o
+                                        0x557 (size before relaxing)
+ .debug_line_str
+                0x0000000000001414       0x7b C:\Users\tom\AppData\Local\Temp\ccw9TzrI.debug.temp.o
+                                        0x3da (size before relaxing)
+ .debug_line_str
+                0x000000000000148f       0x7c C:\Users\tom\AppData\Local\Temp\ccr2Hk1o.debug.temp.o
+                                        0x3da (size before relaxing)
+ .debug_line_str
+                0x000000000000150b       0x92 C:\Users\tom\AppData\Local\Temp\ccg8FMu9.debug.temp.o
+                                        0x4c3 (size before relaxing)
+ .debug_line_str
+                0x000000000000159d       0x7d C:\Users\tom\AppData\Local\Temp\ccbRqAPT.debug.temp.o
+                                        0x496 (size before relaxing)
+ .debug_line_str
+                0x000000000000161a       0x7b C:\Users\tom\AppData\Local\Temp\ccm6PMfE.debug.temp.o
+                                        0x4a8 (size before relaxing)
+ .debug_line_str
+                0x0000000000001695       0x84 C:\Users\tom\AppData\Local\Temp\cc71bJZo.debug.temp.o
+                                        0x44c (size before relaxing)
+ .debug_line_str
+                0x0000000000001719       0x89 C:\Users\tom\AppData\Local\Temp\ccw4u7O9.debug.temp.o
+                                        0x3f6 (size before relaxing)
+ .debug_line_str
+                0x00000000000017a2       0x88 C:\Users\tom\AppData\Local\Temp\cc1TPexU.debug.temp.o
+                                        0x35e (size before relaxing)
+ .debug_line_str
+                0x000000000000182a       0x84 C:\Users\tom\AppData\Local\Temp\ccEfpIoE.debug.temp.o
+                                        0x29a (size before relaxing)
+ .debug_line_str
+                0x00000000000018ae       0x83 C:\Users\tom\AppData\Local\Temp\cclR1Plo.debug.temp.o
+                                        0x542 (size before relaxing)

@@ -1,0 +1,16 @@
+build/dott_example_01/system_stm32f0xx.o: \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/system_stm32f0xx.c \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/Drivers/CMSIS/Include/core_cm0.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/Drivers/CMSIS/Include/core_cmInstr.h \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/Drivers/CMSIS/Include/cmsis_gcc.h \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/Drivers/CMSIS/Include/core_cmFunc.h \
+ C:/Users/Employee/Documents/DOTT-NG/examples/01_component_testing/target/Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h

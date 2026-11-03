@@ -1,0 +1,451 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              build/dott_example_01_noopt/system_stm32f0xx.o (__aeabi_uidiv)
+C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                              build/dott_example_01_noopt/dott/target/testhelpers.o (memset)
+C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+                              build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o (__libc_init_array)
+C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+                              build/dott_example_01_noopt/testexamples.o (strlen)
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+LOAD build/dott_example_01_noopt/dott/target/testhelpers.o
+LOAD build/dott_example_01_noopt/system_stm32f0xx.o
+LOAD build/dott_example_01_noopt/testexamples.o
+LOAD build/dott_example_01_noopt/quicksort.o
+LOAD build/dott_example_01_noopt/main.o
+START GROUP
+LOAD C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+                0x20004000                        _estack = 0x20004000
+                0x00000000                        _Min_Heap_Size = 0x0
+                0x00000000                        _Min_Stack_Size = 0x0
+
+.isr_vector     0x08000000       0xc0
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xc0 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x08000000                g_pfnVectors
+                0x080000c0                        . = ALIGN (0x4)
+
+.text           0x080000c0      0x7f8
+                0x080000c0                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x080000c0       0x14 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .text          0x080000d4        0x0 build/dott_example_01_noopt/dott/target/testhelpers.o
+ .text          0x080000d4        0x0 build/dott_example_01_noopt/system_stm32f0xx.o
+ .text          0x080000d4        0x0 build/dott_example_01_noopt/testexamples.o
+ .text          0x080000d4        0x0 build/dott_example_01_noopt/quicksort.o
+ .text          0x080000d4        0x0 build/dott_example_01_noopt/main.o
+ .text          0x080000d4      0x114 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x080000d4                __aeabi_uidiv
+                0x080000d4                __udivsi3
+                0x080001e0                __aeabi_uidivmod
+ .text          0x080001e8        0x4 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x080001e8                __aeabi_idiv0
+                0x080001e8                __aeabi_ldiv0
+ .text          0x080001ec        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .text          0x080001ec        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .text          0x080001ec        0xe C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+                0x080001ec                strlen
+ *(.text*)
+ *fill*         0x080001fa        0x2 
+ .text.Reset_Handler
+                0x080001fc       0x50 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x080001fc                Reset_Handler
+ .text.Default_Handler
+                0x0800024c        0x2 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x0800024c                TIM1_CC_IRQHandler
+                0x0800024c                TSC_IRQHandler
+                0x0800024c                HardFault_Handler
+                0x0800024c                ADC1_COMP_IRQHandler
+                0x0800024c                SysTick_Handler
+                0x0800024c                PendSV_Handler
+                0x0800024c                NMI_Handler
+                0x0800024c                I2C1_IRQHandler
+                0x0800024c                RCC_CRS_IRQHandler
+                0x0800024c                SPI1_IRQHandler
+                0x0800024c                TIM6_DAC_IRQHandler
+                0x0800024c                USART3_4_IRQHandler
+                0x0800024c                EXTI2_3_IRQHandler
+                0x0800024c                I2C2_IRQHandler
+                0x0800024c                TIM17_IRQHandler
+                0x0800024c                CEC_CAN_IRQHandler
+                0x0800024c                RTC_IRQHandler
+                0x0800024c                PVD_VDDIO2_IRQHandler
+                0x0800024c                DMA1_Channel4_5_6_7_IRQHandler
+                0x0800024c                TIM16_IRQHandler
+                0x0800024c                TIM3_IRQHandler
+                0x0800024c                EXTI4_15_IRQHandler
+                0x0800024c                DMA1_Channel1_IRQHandler
+                0x0800024c                Default_Handler
+                0x0800024c                TIM14_IRQHandler
+                0x0800024c                TIM7_IRQHandler
+                0x0800024c                TIM15_IRQHandler
+                0x0800024c                EXTI0_1_IRQHandler
+                0x0800024c                USB_IRQHandler
+                0x0800024c                SPI2_IRQHandler
+                0x0800024c                SVC_Handler
+                0x0800024c                WWDG_IRQHandler
+                0x0800024c                TIM2_IRQHandler
+                0x0800024c                DMA1_Channel2_3_IRQHandler
+                0x0800024c                USART2_IRQHandler
+                0x0800024c                FLASH_IRQHandler
+                0x0800024c                USART1_IRQHandler
+                0x0800024c                TIM1_BRK_UP_TRG_COM_IRQHandler
+ .text.DOTT_test_hook_chained
+                0x0800024e       0x12 build/dott_example_01_noopt/dott/target/testhelpers.o
+                0x0800024e                DOTT_test_hook_chained
+ .text.DOTT_test_hook
+                0x08000260       0x38 build/dott_example_01_noopt/dott/target/testhelpers.o
+                0x08000260                DOTT_test_hook
+ .text.DOTT_break_here
+                0x08000298        0xe build/dott_example_01_noopt/dott/target/testhelpers.o
+                0x08000298                DOTT_break_here
+ *fill*         0x080002a6        0x2 
+ .text.SystemInit
+                0x080002a8       0x88 build/dott_example_01_noopt/system_stm32f0xx.o
+                0x080002a8                SystemInit
+ .text.SystemCoreClockUpdate
+                0x08000330      0x10c build/dott_example_01_noopt/system_stm32f0xx.o
+                0x08000330                SystemCoreClockUpdate
+ .text.example_NoArgs
+                0x0800043c        0xc build/dott_example_01_noopt/testexamples.o
+                0x0800043c                example_NoArgs
+ .text.example_NoArgsStatic
+                0x08000448       0x14 build/dott_example_01_noopt/testexamples.o
+ .text.example_Addition
+                0x0800045c       0x18 build/dott_example_01_noopt/testexamples.o
+                0x0800045c                example_Addition
+ .text.example_AdditionPtr
+                0x08000474       0x1c build/dott_example_01_noopt/testexamples.o
+                0x08000474                example_AdditionPtr
+ .text.example_Multiply
+                0x08000490       0x18 build/dott_example_01_noopt/testexamples.o
+                0x08000490                example_Multiply
+ .text.example_AdditionPtrRet
+                0x080004a8       0x26 build/dott_example_01_noopt/testexamples.o
+                0x080004a8                example_AdditionPtrRet
+ .text.example_AdditionStruct
+                0x080004ce       0x40 build/dott_example_01_noopt/testexamples.o
+                0x080004ce                example_AdditionStruct
+ .text.example_AdditionStructPtr
+                0x0800050e       0x22 build/dott_example_01_noopt/testexamples.o
+                0x0800050e                example_AdditionStructPtr
+ .text.example_GetA
+                0x08000530       0x14 build/dott_example_01_noopt/testexamples.o
+ .text.example_GetB
+                0x08000544       0x18 build/dott_example_01_noopt/testexamples.o
+ .text.example_AdditionSubcalls
+                0x0800055c       0x24 build/dott_example_01_noopt/testexamples.o
+                0x0800055c                example_AdditionSubcalls
+ .text.example_ManyArgs
+                0x08000580       0x2c build/dott_example_01_noopt/testexamples.o
+                0x08000580                example_ManyArgs
+ .text.example_FunctorAdd
+                0x080005ac       0x18 build/dott_example_01_noopt/testexamples.o
+                0x080005ac                example_FunctorAdd
+ .text.example_FunctorSub
+                0x080005c4       0x18 build/dott_example_01_noopt/testexamples.o
+                0x080005c4                example_FunctorSub
+ .text.example_CustomOperation
+                0x080005dc       0x20 build/dott_example_01_noopt/testexamples.o
+                0x080005dc                example_CustomOperation
+ .text.example_FunctionPointers
+                0x080005fc       0x34 build/dott_example_01_noopt/testexamples.o
+                0x080005fc                example_FunctionPointers
+ .text.reg_func_ptr_a
+                0x08000630       0x18 build/dott_example_01_noopt/testexamples.o
+                0x08000630                reg_func_ptr_a
+ .text.reg_func_ptr_null
+                0x08000648       0x14 build/dott_example_01_noopt/testexamples.o
+                0x08000648                reg_func_ptr_null
+ .text.reg_func_ptr_param
+                0x0800065c       0x1c build/dott_example_01_noopt/testexamples.o
+                0x0800065c                reg_func_ptr_param
+ .text.example_StringLen
+                0x08000678       0x1a build/dott_example_01_noopt/testexamples.o
+                0x08000678                example_StringLen
+ .text.example_SumElements
+                0x08000692       0x54 build/dott_example_01_noopt/testexamples.o
+ .text.swap     0x080006e6       0x26 build/dott_example_01_noopt/quicksort.o
+                0x080006e6                swap
+ .text.is_le    0x0800070c       0x2e build/dott_example_01_noopt/quicksort.o
+                0x0800070c                is_le
+ .text.partition
+                0x0800073a       0x8a build/dott_example_01_noopt/quicksort.o
+                0x0800073a                partition
+ .text.quickSort
+                0x080007c4       0x48 build/dott_example_01_noopt/quicksort.o
+                0x080007c4                quickSort
+ .text.main     0x0800080c       0x48 build/dott_example_01_noopt/main.o
+                0x0800080c                main
+ .text._init    0x08000854        0xa build/dott_example_01_noopt/main.o
+                0x08000854                _init
+ .text.memset   0x0800085e       0x10 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x0800085e                memset
+ *fill*         0x0800086e        0x2 
+ .text.__libc_init_array
+                0x08000870       0x48 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+                0x08000870                __libc_init_array
+ *(.glue_7)
+ .glue_7        0x080008b8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080008b8        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x080008b8                        . = ALIGN (0x4)
+                0x080008b8                        _etext = .
+
+.vfp11_veneer   0x080008b8        0x0
+ .vfp11_veneer  0x080008b8        0x0 linker stubs
+
+.v4_bx          0x080008b8        0x0
+ .v4_bx         0x080008b8        0x0 linker stubs
+
+.iplt           0x080008b8        0x0
+ .iplt          0x080008b8        0x0 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+
+.rodata         0x080008b8       0x38
+                0x080008b8                        . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x080008b8       0x18 build/dott_example_01_noopt/system_stm32f0xx.o
+                0x080008b8                AHBPrescTable
+                0x080008c8                APBPrescTable
+ .rodata        0x080008d0       0x20 build/dott_example_01_noopt/main.o
+ *(.rodata*)
+                0x080008f0                        . = ALIGN (0x4)
+
+.rel.dyn        0x080008f0        0x0
+ .rel.iplt      0x080008f0        0x0 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x080008f0        0x0
+                0x080008f0                        __exidx_start = .
+ *(.ARM.exidx*)
+                0x080008f0                        __exidx_end = .
+
+.preinit_array  0x080008f0        0x0
+                0x080008f0                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x080008f0                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x080008f0        0x0
+                0x080008f0                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+                0x080008f0                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x080008f0        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x080008f0                        _sidata = LOADADDR (.data)
+
+.data           0x20000000        0x8 load address 0x080008f0
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ .data          0x20000000        0x0 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .data          0x20000000        0x0 build/dott_example_01_noopt/dott/target/testhelpers.o
+ .data          0x20000000        0x4 build/dott_example_01_noopt/system_stm32f0xx.o
+                0x20000000                SystemCoreClock
+ .data          0x20000004        0x0 build/dott_example_01_noopt/testexamples.o
+ .data          0x20000004        0x0 build/dott_example_01_noopt/quicksort.o
+ .data          0x20000004        0x4 build/dott_example_01_noopt/main.o
+                0x20000004                global_data
+ .data          0x20000008        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x20000008        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x20000008        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .data          0x20000008        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .data          0x20000008        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+ *(.data*)
+                0x20000008                        . = ALIGN (0x4)
+                0x20000008                        _edata = .
+
+.igot.plt       0x20000008        0x0 load address 0x080008f8
+ .igot.plt      0x20000008        0x0 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                0x20000008                        . = ALIGN (0x4)
+
+.bss            0x20000008        0x4 load address 0x080008f8
+                0x20000008                        _sbss = .
+                0x20000008                        __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000008        0x0 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .bss           0x20000008        0x0 build/dott_example_01_noopt/dott/target/testhelpers.o
+ .bss           0x20000008        0x0 build/dott_example_01_noopt/system_stm32f0xx.o
+ .bss           0x20000008        0x4 build/dott_example_01_noopt/testexamples.o
+ .bss           0x2000000c        0x0 build/dott_example_01_noopt/quicksort.o
+ .bss           0x2000000c        0x0 build/dott_example_01_noopt/main.o
+ .bss           0x2000000c        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x2000000c        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x2000000c        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .bss           0x2000000c        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .bss           0x2000000c        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+ *(.bss*)
+ *(COMMON)
+                0x2000000c                        . = ALIGN (0x4)
+                0x2000000c                        _ebss = .
+                0x2000000c                        __bss_end__ = _ebss
+
+._user_heap_stack
+                0x2000000c        0x0 load address 0x080008f8
+                0x2000000c                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x2000000c                        . = (. + _Min_Heap_Size)
+                0x2000000c                        . = (. + _Min_Stack_Size)
+                0x2000000c                        . = ALIGN (0x4)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2d
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x21 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .ARM.attributes
+                0x00000021       0x2c build/dott_example_01_noopt/dott/target/testhelpers.o
+ .ARM.attributes
+                0x0000004d       0x2c build/dott_example_01_noopt/system_stm32f0xx.o
+ .ARM.attributes
+                0x00000079       0x2c build/dott_example_01_noopt/testexamples.o
+ .ARM.attributes
+                0x000000a5       0x2c build/dott_example_01_noopt/quicksort.o
+ .ARM.attributes
+                0x000000d1       0x2c build/dott_example_01_noopt/main.o
+ .ARM.attributes
+                0x000000fd       0x1e C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000011b       0x1e C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000139       0x2c C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000165       0x2c C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000191       0x1c C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+OUTPUT(build/dott_example_01_noopt/dott_example_01_noopt.elf elf32-littlearm)
+LOAD linker stubs
+LOAD C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a
+
+.debug_line     0x00000000      0xda7
+ .debug_line    0x00000000       0xf5 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_line    0x000000f5      0x1a4 build/dott_example_01_noopt/dott/target/testhelpers.o
+ .debug_line    0x00000299      0x302 build/dott_example_01_noopt/system_stm32f0xx.o
+ .debug_line    0x0000059b      0x4eb build/dott_example_01_noopt/testexamples.o
+ .debug_line    0x00000a86      0x127 build/dott_example_01_noopt/quicksort.o
+ .debug_line    0x00000bad      0x1fa build/dott_example_01_noopt/main.o
+
+.debug_info     0x00000000      0xc84
+ .debug_info    0x00000000       0x30 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_info    0x00000030      0x11c build/dott_example_01_noopt/dott/target/testhelpers.o
+ .debug_info    0x0000014c      0x263 build/dott_example_01_noopt/system_stm32f0xx.o
+ .debug_info    0x000003af      0x5e3 build/dott_example_01_noopt/testexamples.o
+ .debug_info    0x00000992      0x1ce build/dott_example_01_noopt/quicksort.o
+ .debug_info    0x00000b60      0x124 build/dott_example_01_noopt/main.o
+
+.debug_abbrev   0x00000000      0x5ab
+ .debug_abbrev  0x00000000       0x1d build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_abbrev  0x0000001d       0xda build/dott_example_01_noopt/dott/target/testhelpers.o
+ .debug_abbrev  0x000000f7      0x113 build/dott_example_01_noopt/system_stm32f0xx.o
+ .debug_abbrev  0x0000020a      0x1c4 build/dott_example_01_noopt/testexamples.o
+ .debug_abbrev  0x000003ce       0xf2 build/dott_example_01_noopt/quicksort.o
+ .debug_abbrev  0x000004c0       0xeb build/dott_example_01_noopt/main.o
+
+.debug_aranges  0x00000000      0x1a0
+ .debug_aranges
+                0x00000000       0x28 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_aranges
+                0x00000028       0x30 build/dott_example_01_noopt/dott/target/testhelpers.o
+ .debug_aranges
+                0x00000058       0x28 build/dott_example_01_noopt/system_stm32f0xx.o
+ .debug_aranges
+                0x00000080       0xc0 build/dott_example_01_noopt/testexamples.o
+ .debug_aranges
+                0x00000140       0x38 build/dott_example_01_noopt/quicksort.o
+ .debug_aranges
+                0x00000178       0x28 build/dott_example_01_noopt/main.o
+
+.debug_str      0x00000000      0x717
+ .debug_str     0x00000000      0x717 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+                                 0xfb (size before relaxing)
+ .debug_str     0x00000717        0x0 build/dott_example_01_noopt/dott/target/testhelpers.o
+                                0x233 (size before relaxing)
+ .debug_str     0x00000717        0x0 build/dott_example_01_noopt/system_stm32f0xx.o
+                                0x2c6 (size before relaxing)
+ .debug_str     0x00000717        0x0 build/dott_example_01_noopt/testexamples.o
+                                0x41e (size before relaxing)
+ .debug_str     0x00000717        0x0 build/dott_example_01_noopt/quicksort.o
+                                0x218 (size before relaxing)
+ .debug_str     0x00000717        0x0 build/dott_example_01_noopt/main.o
+                                0x219 (size before relaxing)
+
+.debug_ranges   0x00000000      0x148
+ .debug_ranges  0x00000000       0x20 build/dott_example_01_noopt/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc/startup_stm32f072xb.o
+ .debug_ranges  0x00000020       0x20 build/dott_example_01_noopt/dott/target/testhelpers.o
+ .debug_ranges  0x00000040       0x18 build/dott_example_01_noopt/system_stm32f0xx.o
+ .debug_ranges  0x00000058       0xb0 build/dott_example_01_noopt/testexamples.o
+ .debug_ranges  0x00000108       0x28 build/dott_example_01_noopt/quicksort.o
+ .debug_ranges  0x00000130       0x18 build/dott_example_01_noopt/main.o
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 build/dott_example_01_noopt/dott/target/testhelpers.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 build/dott_example_01_noopt/system_stm32f0xx.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 build/dott_example_01_noopt/testexamples.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 build/dott_example_01_noopt/quicksort.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045        0x0 build/dott_example_01_noopt/main.o
+                                 0x46 (size before relaxing)
+
+.debug_frame    0x00000000      0x4a8
+ .debug_frame   0x00000000       0x6c build/dott_example_01_noopt/dott/target/testhelpers.o
+ .debug_frame   0x0000006c       0x4c build/dott_example_01_noopt/system_stm32f0xx.o
+ .debug_frame   0x000000b8      0x2a8 build/dott_example_01_noopt/testexamples.o
+ .debug_frame   0x00000360       0x90 build/dott_example_01_noopt/quicksort.o
+ .debug_frame   0x000003f0       0x4c build/dott_example_01_noopt/main.o
+ .debug_frame   0x0000043c       0x20 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000045c       0x20 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x0000047c       0x2c C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-init.o)
+
+.debug_line_str
+                0x00000000      0x1b8
+ .debug_line_str
+                0x00000000      0x1b8 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                                 0xcd (size before relaxing)
+ .debug_line_str
+                0x000001b8        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                                 0xcd (size before relaxing)
+ .debug_line_str
+                0x000001b8        0x0 C:/Users/Employee/Documents/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+                                 0xeb (size before relaxing)
